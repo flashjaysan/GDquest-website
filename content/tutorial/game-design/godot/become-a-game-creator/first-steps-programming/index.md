@@ -1,27 +1,27 @@
 ---
-title: "Become a Game Developer: Your First Steps with Programming"
-description: You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design.
+title: "Devenez un Développeur de Jeu : Vos Premiers Pas en Programmation"
+description: Vous souhaitez créer vos propres jeux mais vous n'avez aucune expérience en programmation ? Ce guide est fait pour vous ! Cette série vous aidera à débuter en programmation et en conception de jeu.
 author: nathan
 
 banner:
   src: ./img/banner.png
-  alt: A character studying code in front of a computer, a desk, and two books
+  alt: Un personnage étudiant du code devant un ordinateur, un bureau et deux livres
 
 date: 2018-04-12T09:04:58+09:00
 ---
 
-You want to get started with game creation and programming but don't know where to start? That's what this series is all about!
+Vous souhaitez débuter dans la création et la programmation de jeu mais vous ne savez pas par où commencer ? C'est justement le sujet de cette série !
 
-This first part is for you if you have little to no programming experience. You're going to learn:
+Cette première partie est faite pour vous si vous n'avez pas ou très peu d'expérience en programmation. Vous allez apprendre :
 
-1. That you should **learn programming foundations first**
-1. That **Programming is for everyone**. It's not just about math and it's not just for men or young people
-1. **How to get started today**
+1. Que vous devriez **d'abord apprendre les bases de la programmation**
+2. Que **La programmation est accessible à tous**. Ce n'est pas juste une question de math et ce n'est pas réservé aux hommes ou aux jeunes personnes
+3. **Comment débuter dès aujourd'hui**
 
-<!-- TODO: If you've already nailed programming basics, check out part two: [ Getting Started with Game Programming and Godot ](). -->
+<!-- TODO: Si vous maîtrisez déjà les bases de la programmation, consultez la deuxième partie : [ Débuter en Programmation de Jeu et Godot ](). -->
 
 <span class="note">
-It is the first part of a *Free and Open Source* intro series to game creation and to the [ Godot game engine ](https://godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
+Ceci est la première partie d'une série *Libre et Open Source* d'introduction à la création de jeu et au [ moteur de jeu Godot ](https://godotengine.org/). Cela a été rendu possible par 760 genereux soutiens et sponsors Kickstarter.
 </span>
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
@@ -39,83 +39,83 @@ It is the first part of a *Free and Open Source* intro series to game creation a
 <!-- markdown-toc end -->
 
 
-## Take it one step at a time
+## Faites un pas après l'autre
 
-Game creation can feel overwhelming at first. We've all had a tough time getting started *whether we remember it or not*.
+La création de jeu peut donner l'impression d'être insurmontable de prime abord. Nous avons tous vécu de durs moments à nos débuts *que l'on se le rappelle ou non*.
 
-To make games alone you have to learn both:
+Pour faire des jeux seul, vous devez à la fois apprendre :
 
-1. **Game design**, how to come up with interesting mechanics, rules, and goals for the players
-1. And **programming**, or how to translate your design in a language that the computer understands
+1. **La conception de jeu**, comment trouver des mécaniques intéressantes, des règles et des objectifs pour les joueurs
+2. Et la **programmation**, ou comment traduire votre conception en un langage que l'ordinateur comprend
 
-That's a lot to tackle all at once! Like any creative discipline, it takes time. Don't worry though: learning can be a fun experience!
+Cela fait beaucoup à gérer d'un seul coup ! Comme toute discipline créative, cela prend du temps. Néanmoins, ne vous inquiétez pas : apprendre peut être une expérience amusante !
 
 
 {{< figure
   src="./img/one-step-at-a-time.jpg"
-  alt="A cat walking down stairs"
-  caption="Code and design are whole new worlds to discover and explore. Take your time, stay curious."
+  alt="Un chat descend des escaliers"
+  caption="Le code et la conception sont de nouveaux mondes à découvrir et à explorer. Prenez votre temps, restez curieux."
 >}}
 
 
-You may not be able to communicate your vision at first and you'll stumble upon obstacles along the way. But you'll also have plenty of "ah-ha" moments and deep satisfaction when your family and friends get to play your games.
+Au début, vous ne serez peut-être pas capable de communiquer votre vision et vous ferez face à des obstacles tout au long du chemin. Mais vous vivrez également de nombreux moments drôles et vous aurez une profonde satisfaction quand votre famille ou vos amis jouera à vos jeux.
 
-When you are just starting out, you should **focus on code and game design separately**. Be it in parallel or one after the other, you should learn the basics, write a few programs, design simple games on paper... then bring both disciplines together to make video games.
+Lorsque vous débutez tout juste, vous devriez vous **concentrer sur le code et la conception de jeu séparément**. Que ce soit en parallèle ou une discipline après l'autre, vous devriez apprendre les bases, écrire quelques programmes, concevoir des jeux simples sur papier... puis rassembler les deux disciplines pour créer des jeux vidéos.
 
-That's what we're going to explore in this series, starting with programming.
+C'est ce que nous allons explorer dans cette série, à commencer par la programmation.
 
-## What do **you** want to create?
+## Que voulez-**vous** créer ?
 
-To stay motivated it's best if you understand why you're learning and what your objectives are.
+Pour rester motivé, il vaut mieux que vous compreniez pourquoi vous voulez apprendre et quels sont vos objectifs.
 
-What drives you to create your own game? Take a moment to think about the following questions:
+Qu'est-ce qui vous pousse à créer votre propre jeu ? Prenez un moment pour réfléchir aux questions suivantes :
 
-- What game do you want to make?
-- Are you doing this for fun, as a hobby, or to become a professional?
-- What do you need to learn first to achieve these two goals?
+- Quel jeu voulez-vous créer ?
+- Faites-vous cela pour le plaisir, en tant que hobby, ou pour devenir un professionel ?
+- Qu'avez-vous besoin d'apprendre en premier pour atteindre ces deux objectifs ?
 
-There's no right or wrong answer here. Here's how I got started, a long time ago:
+Il n'y a pas de réponse définitive. Voici comment j'ai débuté, il y a longtemps :
 
-> I want to create a small RPG inspired by Japanese games for fun, finish it, and share it with my friends. I want to do everything so I need to learn to do game design, to write a story, to code the game, to draw characters and environments, to design levels, to make sounds and music, ... err, where should I start?
+> Je veux créer un petit RPG inspiré des jeux Japonais pour le plaisir, le terminer, et le partager avec mes amis. Je veux tout faire moi-même alors je dois apprendre la conception de jeu, l'écriture d'une histoire, le codage ddu jeu, le dessin des personnages et des environnements, la conception des niveaux, la création des sons et des musiques, ... euh, par où dois-je commencer ?
 >
-> <footer>Naive 13 years old me</footer>
+> <footer>Moi, 13 ans et naïf</footer>
 
-It was a lot to take on alone but this goal became the beacon that guided me all these years: I've built foundations in all of these domains to some degree. Jack of all trades, certainly master of none! It took me a long time to be able to make games as I got into programming last.
+Cela faisait beaucoup à gérer seul mais ce but devint l'objectif qui me guida toutes ces années : j'ai construis des fondations dans tous ces domaines à différents degrés. Homme à tout faire, maître de rien ! Cela me prit un long moment avant d'être capable de créer des jeux car je me mis à la programmation en dernier.
 
 {{< figure
   src="./img/shapes-old-game-project.jpg"
-  alt="Screenshot of an old abandonned RPG project"
-  caption="One of our old Adventure game projects with Nemega"
+  alt="Capture d'écran d'un vieux projet abandonné de RPG"
+  caption="Un de nos vieux projets de jeu d'Aventure avec Nemega"
 >}}
 
-You will have to be patient. Start small and hone each skill you need separately. You don't have to do everything all alone either. With a little bit of experience you can team up with complementary game creators during game jams for example.
+Vous devrez être patient. Visez petit et développez vos compétences dont vous avez besoin séparément. Vous n'êtes pas non plus obligé de tout faire tout seul. Avec un peu d'expérience, vous pouvez vous associer avec d'autres créateurs de jeux qui vous sont complémentaires, dans des game jams par exemple.
 
-Let's assume that you want to make video games by yourself. Maybe it would just be game prototypes that you can try out with your friends and flesh out with the help of a developer at a later stage. You're going to have to dive into code, but...
+Suposons que vous souhaitez créer des jeux vidéos par vous-même. Peut-être que ce sera juste des prototypes de jeux que vous pouvez essayer avec vos amis et enrichir avec l'aide d'un développeur lors d'un stade plus avancé. Let's assume that you want to make video games by yourself. Vous allez devoir plonger dans le code, mais...
 
-## To code games, you need programming foundations
+## Pour coder des jeux, vous avez besoin de bases en programmation
 
-If you jump straight in a game editor and try to write code you're in trouble. A game engines is a large collection of technologies that add hundreds, if not thousands of new tools and functions to learn on top of programming foundations. You're going to get stuck often and you'll hit frustrating roadblocks. If you don't know what variables, functions, loops, objects, and classes are or how they work to some extent, you'll want to **build solid foundations** first.
+Si vous foncez directement dans un éditeur de jeu et essayez d'écrire du code, vous allez avoir des ennuis. Un moteur de jeu est une large collections de technologies qui accumulent des centaines, si pas des milliers de nouveaux outils et fonctions à apprendre en plus des bases de la programmation. Vous allez être souvent bloqué et vous finirez frustré de ne pas pouvoir avancer. Si vous ne savez pas ce que sont des variables, des fonctions, des boucles, des objets, et des classes, ou comment ils fonctionnent d'une manière générale, vous devrez d'abord **construire de solides fondations**.
 
-> You need to write code to become a developer. Many beginners are afraid to write code that breaks. You won't break your computer. Sure your app will crash and there may be bugs but that's okay. You can only learn by trying.
+> Vous devez écrire du code pour devenir développeur. De nombreux débutants ont peur d'écrire du code qui fasse planter l'ordinateur. Vous ne l'abimerez pas. Evidemment, votre programme va planter et il y aura de nombreux bugs mais tout va bien. Vous ne pouvez apprendre qu'en essayant.
 >
-> <footer><a href="https://twitter.com/valryon/">Valryon</a>, co-founder of <a href="http://pixelnest.io/">Pixelnest</a></footer>
+> <footer><a href="https://twitter.com/valryon/">Valryon</a>, co-fondateur de <a href="http://pixelnest.io/">Pixelnest</a></footer>
 
 ![](img/sterenden.png)
 
-To get good foundations you should:
+Pour avoir de bonnes fondations vous devriez :
 
-1. Learn your **first language** and get a sense for basic programming tools like variables, functions, loops, and classes
-1. **Write** simple programs like text-only interactive games or scripts to automate boring tasks on your computer
-1. **Read** code from other people and try to understand what it does
+1. Apprendre votre **premier langage** et avoir une idée des outils de base de la programmation tels que les variable, les fonctions, les boucles, et les classes
+2. **Ecrire** des programmes simples tels que des jeux interactifs uniquement en texte ou des scripts pour automatiser des tâches ennuyeuses sur votre ordinateur
+1. **Lire** du code écrit par d'autres personnes et essayer de comprendre ce qu'il fait
 
 <span class="note">
-Programming - especially game programming - is a creative activity. You can spend your entire life exploring new techniques and sharpening your skills. Take your time and try to enjoy the journey.
+La programmation - en particulier pour les jeux - est une activité créative. Vous pouvez passer votre vie entière à explorer de nouvelles techniques et affiner vos compétences. Prenez votre temps et essayez d'apprécier le voyage.
 </span>
 
-Keep the **KISS** principle in mind to avoid frustration: **Keep it Short and Sweet**. You can learn fast with short focused practice sessions.
+Gardez à l'esprit le principe **KISS** pour éviter toute frustration : **faites court et bref (Keep It Short and Sweet)** Vous pouvez apprendre rapidement avec des sessions d'entraînement courtes et concentrées.
 
 
-## The first language you'll learn isn't that important
+## Le premier langage que vous apprendrez n'est pas si important que ça
 
 There are [ hundreds of programming languages ](https://www.wikiwand.com/en/List_of_programming_languages) out there. But it isn't that* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
 
@@ -128,7 +128,7 @@ There are [ hundreds of programming languages ](https://www.wikiwand.com/en/List
 **Learning a given language is a small part of learning programming**. As you gain experience, you'll acquire more and more knowledge that you will be able to transpose across tools and languages: how to structure your code, how to avoid bugs, how to learn on your own with a programming manual or reference...
 
 
-## Programming is for everyone
+## Programmer est accessible à tous
 
 You don't need to start with a tough, low-level language like C++. When I was in middle school, a more experienced developer taught me C++,  his argument being that it is one of the most widely used languages. At the age of 14, I got a 1000 pages long intro to C++. I had a horrible experience reading it and concluded that programming was not for me. I was disgusted from programming and stayed away from code for years.
 
@@ -151,7 +151,7 @@ There are different types of developers, and different paths to becoming a devel
 
 Women can code just as well as men. Designers and artists can also code. Again: **programming is for everyone**. You've just got to find the tool that's right for you.
 
-## Don't start with C++
+## Ne commencez pas par le C++
 
 Unless you like to learn the hard way, you don't have to start with C++. C++ is a **complicated**, feature-packed language designed to write code that runs fast. It's not meant to be accessible. It's not meant to be part of your first programming experience. Especially if you are young and don't like math or if you are not very comfortable with a computer. Lucky for us, it's not necessary at all to get started with programming or to become a professional game developer.
 
@@ -175,7 +175,7 @@ Even if it feels scientific at first, programming is a creative problem-solving 
   caption="Object-Oriented Design is a tool to make your game code manageable"
 >}}
 
-## Visual programming is still computer code
+## La programmation visuelle reste du code informatique
 
 Do you feel uncomfortable writing code as text? At first that's normal; you're learning to communicate with a machine using a foreign tongue.
 
@@ -216,7 +216,7 @@ func _process(delta):
 You will only see the drawbacks of visual code after you have learned and gotten comfortable with text-based programming. It is okay to start with visual code. Just don't count other programming languages out because they're harder for you to get started with. As a designer I'm glad I made the transition: it felt a little uncomfortable at first but I never looked back.
 
 
-## I recommend to start with Python
+## Je vous recommande de commencer par Python
 
 As a game development tutor, I see so many **beginners jump head first in an engine and fail**. They follow step-by-step tutorials or copy-paste code from demo projects hoping to build their own dream project. As they lack programming foundations they get stuck as soon as they tweak a line of code. Doing that, you mostly end up wasting time and building up frustration.
 
@@ -278,7 +278,7 @@ You'll find few games written in the Python language. Game development companies
 
 
 
-## Three resources to learn Python step by step
+## Trois ressources pour apprendre Python pas à pas
 
 I don't want to flood you with a long list of resources. Instead here's three that I like: two interactive courses which you can complete in your browser without having to download any tool and a free ebook that will help you automate repetitive tasks on your computer with Python.
 
@@ -310,7 +310,7 @@ Put your new Python knowledge to good use with this [ free book ](http://automat
 
 The Python community also put up a [ nice guide ](http://docs.python-guide.org/en/latest/intro/learning/) to help you go further with the language.
 
-## Summary
+## En résumé
 
 That was a long article, right? If you should only remember a few key points:
 
@@ -326,7 +326,7 @@ In the next part we'll get started with game design. You can find me [ on Twitte
 
 {{< gumroad-call-to-action >}}
 
-##  Your Questions
+##  Vos Questions
 
 Got questions about getting started with programming? [Send me a tweet](https://twitter.com/NathanGDquest) !
 
